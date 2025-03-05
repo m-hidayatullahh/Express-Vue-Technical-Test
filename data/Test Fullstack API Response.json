@@ -1,0 +1,1005 @@
+[
+  {
+    "id": 1,
+    "label": "Dashboard Kependudukan",
+    "role": [
+      "BAPPEDA",
+      "KELURAHAN",
+      "DISDUKCAPIL",
+      "ADMIN",
+      "DKPKP",
+      "DSDA",
+      "DLH",
+      "SEKEL",
+      "KOTA"
+    ],
+    "description": "Deskripsi tentang dashboard kependudukan",
+    "path_user": "/user/dashboard-grafik/",
+    "grid": {
+      "row": [
+        {
+          "label": "Highlight Data",
+          "highlight": true,
+          "column": [
+            {
+              "lg": 12,
+              "md": 12,
+              "sm": 12
+            }
+          ]
+        },
+        {
+          "label": "Data Grafik",
+          "highlight": false,
+          "column": [
+            {
+              "lg": 12,
+              "md": 12,
+              "sm": 12
+            }
+          ]
+        }
+      ]
+    },
+    "variabel": [],
+    "show": true,
+    "icon": "icon_kependudukan",
+    "grafik": [
+      {
+        "id": 2,
+        "dashboardId": 1,
+        "level_wilayah": [
+          "PROVINSI",
+          "KOTA",
+          "KECAMATAN",
+          "KELURAHAN",
+          "RW",
+          "RT"
+        ],
+        "show": true,
+        "label": "Jumlah Penduduk Berdasarkan Jenis Kelamin",
+        "deskripsi": "Deskripsi Indikator Mengeluarkan chart atau agregat ini, misal indikator program yang dimiliki masing - masing stackholder chart ini",
+        "model_chart": "pie",
+        "row": 1,
+        "column": 2,
+        "column_size": 6,
+        "variabel": [
+          "jumlah_laki_laki",
+          "jumlah_perempuan"
+        ]
+      },
+      {
+        "id": 3,
+        "dashboardId": 1,
+        "level_wilayah": [
+          "PROVINSI",
+          "KOTA",
+          "KECAMATAN",
+          "KELURAHAN",
+          "RW",
+          "RT"
+        ],
+        "show": true,
+        "label": "Jumlah Penduduk Berdasarkan Kepemilikan KTP",
+        "deskripsi": "Deskripsi Indikator Mengeluarkan chart atau agregat ini, misal indikator program yang dimiliki masing - masing stackholder chart ini",
+        "model_chart": "donut",
+        "row": 1,
+        "column": 2,
+        "column_size": 6,
+        "variabel": [
+          "jumlah_ktp_dki",
+          "jumlah_ktp_non_dki"
+        ]
+      },
+      {
+        "id": 4,
+        "dashboardId": 1,
+        "level_wilayah": [
+          "PROVINSI",
+          "KOTA",
+          "KECAMATAN",
+          "KELURAHAN",
+          "RW",
+          "RT"
+        ],
+        "show": true,
+        "label": "Jumlah Penduduk",
+        "deskripsi": "Deskripsi Indikator Mengeluarkan chart atau agregat ini, misal indikator program yang dimiliki masing - masing stackholder chart ini",
+        "model_chart": "agregat",
+        "row": 1,
+        "column": 1,
+        "column_size": 12,
+        "variabel": [
+          "jumlah_penduduk"
+        ]
+      },
+      {
+        "id": 5,
+        "dashboardId": 1,
+        "level_wilayah": [
+          "PROVINSI",
+          "KOTA",
+          "KECAMATAN",
+          "KELURAHAN",
+          "RW",
+          "RT"
+        ],
+        "show": true,
+        "label": "Jumlah Penduduk Laki - Laki",
+        "deskripsi": "Deskripsi Indikator Mengeluarkan chart atau agregat ini, misal indikator program yang dimiliki masing - masing stackholder chart ini",
+        "model_chart": "agregat",
+        "row": 1,
+        "column": 1,
+        "column_size": 6,
+        "variabel": [
+          "jumlah_laki_laki"
+        ]
+      },
+      {
+        "id": 6,
+        "dashboardId": 1,
+        "level_wilayah": [
+          "PROVINSI",
+          "KOTA",
+          "KECAMATAN",
+          "KELURAHAN",
+          "RW",
+          "RT"
+        ],
+        "show": true,
+        "label": "Jumlah Penduduk Perempuan",
+        "deskripsi": "Deskripsi Indikator Mengeluarkan chart atau agregat ini, misal indikator program yang dimiliki masing - masing stackholder chart ini",
+        "model_chart": "agregat",
+        "row": 1,
+        "column": 1,
+        "column_size": 6,
+        "variabel": [
+          "jumlah_perempuan"
+        ]
+      },
+      {
+        "id": 7,
+        "dashboardId": 1,
+        "level_wilayah": [
+          "PROVINSI",
+          "KOTA",
+          "KECAMATAN",
+          "KELURAHAN",
+          "RW",
+          "RT"
+        ],
+        "show": true,
+        "label": "Jumlah Penduduk KTP DKI",
+        "deskripsi": "Deskripsi Indikator Mengeluarkan chart atau agregat ini, misal indikator program yang dimiliki masing - masing stackholder chart ini",
+        "model_chart": "agregat",
+        "row": 1,
+        "column": 1,
+        "column_size": 6,
+        "variabel": [
+          "jumlah_ktp_dki"
+        ]
+      },
+      {
+        "id": 8,
+        "dashboardId": 1,
+        "level_wilayah": [
+          "PROVINSI",
+          "KOTA",
+          "KECAMATAN",
+          "KELURAHAN",
+          "RW",
+          "RT"
+        ],
+        "show": true,
+        "label": "Jumlah Penduduk KTP Non DKI",
+        "deskripsi": "Deskripsi Indikator Mengeluarkan chart atau agregat ini, misal indikator program yang dimiliki masing - masing stackholder chart ini",
+        "model_chart": "agregat",
+        "row": 1,
+        "column": 1,
+        "column_size": 6,
+        "variabel": [
+          "jumlah_ktp_non_dki"
+        ]
+      },
+      {
+        "id": 9,
+        "dashboardId": 1,
+        "level_wilayah": [
+          "PROVINSI",
+          "KOTA",
+          "KECAMATAN",
+          "KELURAHAN",
+          "RW",
+          "RT"
+        ],
+        "show": true,
+        "label": "Jumlah Penduduk DKI Jakarta",
+        "deskripsi": "Deskripsi Indikator Mengeluarkan chart atau agregat ini, misal indikator program yang dimiliki masing - masing stackholder chart ini",
+        "model_chart": "horizontal_bar",
+        "row": 1,
+        "column": 2,
+        "column_size": 12,
+        "variabel": [
+          "jumlah_balita",
+          "jml_anak",
+          "jumlah_remaja",
+          "jumlah_lansia"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "role": [
+      "BAPPEDA",
+      "KELURAHAN",
+      "DPMPTSP",
+      "ADMIN",
+      "DINSOS",
+      "DPAREKRAF",
+      "ROEKON",
+      "SEKEL",
+      "KOTA"
+    ],
+    "label": "Dashboard Ekonomi",
+    "description": "Bagian Ekonomi",
+    "path_user": "/user/dashboard-grafik/",
+    "grid": {
+      "row": [
+        {
+          "label": "Highlight Data",
+          "highlight": true,
+          "column": [
+            {
+              "lg": 12,
+              "md": 12,
+              "sm": 12
+            }
+          ]
+        },
+        {
+          "label": "Data Grafik",
+          "highlight": false,
+          "column": [
+            {
+              "lg": 12,
+              "md": 12,
+              "sm": 12
+            }
+          ]
+        }
+      ]
+    },
+    "variabel": [],
+    "show": false,
+    "icon": "icon_pembangunan_keluarga",
+    "grafik": []
+  },
+  {
+    "id": 3,
+    "label": "Dashboard Pendidikan",
+    "role": [
+      "BAPPEDA",
+      "KELURAHAN",
+      "DISDIK",
+      "ADMIN",
+      "SEKEL",
+      "KOTA"
+    ],
+    "description": "Deskripsi tentang dashboard pendidikan",
+    "path_user": "/user/dashboard-grafik/",
+    "grid": {
+      "row": [
+        {
+          "label": "Highlight Data",
+          "highlight": true,
+          "column": [
+            {
+              "lg": 12,
+              "md": 12,
+              "sm": 12
+            }
+          ]
+        },
+        {
+          "label": "Data Grafik",
+          "highlight": false,
+          "column": [
+            {
+              "lg": 12,
+              "md": 12,
+              "sm": 12
+            }
+          ]
+        }
+      ]
+    },
+    "variabel": [],
+    "show": true,
+    "icon": "icon_pendidikan",
+    "grafik": [
+      {
+        "id": 10,
+        "dashboardId": 3,
+        "level_wilayah": [
+          "PROVINSI",
+          "KOTA",
+          "KECAMATAN",
+          "KELURAHAN",
+          "RW",
+          "RT"
+        ],
+        "show": true,
+        "label": "Jumlah Anak",
+        "deskripsi": "Deskripsi Indikator Mengeluarkan chart atau agregat ini, misal indikator program yang dimiliki masing - masing stackholder chart ini",
+        "model_chart": "agregat",
+        "row": 1,
+        "column": 1,
+        "column_size": 4,
+        "variabel": [
+          "jumlah_anak"
+        ]
+      },
+      {
+        "id": 11,
+        "dashboardId": 3,
+        "level_wilayah": [
+          "PROVINSI",
+          "KOTA",
+          "KECAMATAN",
+          "KELURAHAN",
+          "RW",
+          "RT"
+        ],
+        "show": true,
+        "label": "Jumlah Anak tidak Sekolah",
+        "deskripsi": "Deskripsi Indikator Mengeluarkan chart atau agregat ini, misal indikator program yang dimiliki masing - masing stackholder chart ini",
+        "model_chart": "agregat",
+        "row": 1,
+        "column": 1,
+        "column_size": 4,
+        "variabel": [
+          "jumlah_anak_tidak_sekolah"
+        ]
+      },
+      {
+        "id": 12,
+        "dashboardId": 3,
+        "level_wilayah": [
+          "PROVINSI",
+          "KOTA",
+          "KECAMATAN",
+          "KELURAHAN",
+          "RW",
+          "RT"
+        ],
+        "show": true,
+        "label": "Anak Usia Sekolah tidak Sekolah",
+        "deskripsi": "Deskripsi Indikator Mengeluarkan chart atau agregat ini, misal indikator program yang dimiliki masing - masing stackholder chart ini",
+        "model_chart": "agregat",
+        "row": 1,
+        "column": 1,
+        "column_size": 4,
+        "variabel": [
+          "jumlah_anak_usia_sekolah_tidak_sekolah"
+        ]
+      },
+      {
+        "id": 13,
+        "dashboardId": 3,
+        "level_wilayah": [
+          "PROVINSI",
+          "KOTA",
+          "KECAMATAN",
+          "KELURAHAN",
+          "RW",
+          "RT"
+        ],
+        "show": true,
+        "label": "Jumlah Anak Tidak Sekolah",
+        "deskripsi": "Deskripsi Indikator Mengeluarkan chart atau agregat ini, misal indikator program yang dimiliki masing - masing stackholder chart ini",
+        "model_chart": "donut",
+        "row": 1,
+        "column": 1,
+        "column_size": 4,
+        "variabel": [
+          "jumlah_anak_laki_laki_tidak_sekolah",
+          "jumlah_anak_perempuan_tidak_sekolah"
+        ]
+      },
+      {
+        "id": 14,
+        "dashboardId": 3,
+        "level_wilayah": [
+          "PROVINSI",
+          "KOTA",
+          "KECAMATAN",
+          "KELURAHAN",
+          "RW",
+          "RT"
+        ],
+        "show": true,
+        "label": "Usia Sekolah Tidak Sekolah",
+        "deskripsi": "Deskripsi Indikator Mengeluarkan chart atau agregat ini, misal indikator program yang dimiliki masing - masing stackholder chart ini",
+        "model_chart": "horizontal_bar",
+        "row": 1,
+        "column": 1,
+        "column_size": 8,
+        "variabel": [
+          "jumlah_anak_laki_laki_usia_sekolah_tidak_sekolah",
+          "jumlah_anak_perempuan_usia_sekolah_tidak_sekolah"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "label": "Dashboard Perumahan",
+    "description": "Deskripsi tentang dashboard perumahan",
+    "path_user": "/user/dashboard-grafik/",
+    "role": [
+      "BAPPEDA",
+      "KELURAHAN",
+      "ADMIN",
+      "DPRKP",
+      "DSDA",
+      "DLH",
+      "SEKEL",
+      "KOTA"
+    ],
+    "show": true,
+    "grid": {
+      "row": [
+        {
+          "label": "Highlight Data",
+          "highlight": true,
+          "column": [
+            {
+              "lg": 12,
+              "md": 12,
+              "sm": 12
+            }
+          ]
+        },
+        {
+          "label": "Data Grafik",
+          "highlight": false,
+          "column": [
+            {
+              "lg": 12,
+              "md": 12,
+              "sm": 12
+            }
+          ]
+        }
+      ]
+    },
+    "variabel": [],
+    "icon": "icon_perumahan",
+    "grafik": []
+  },
+  {
+    "id": 5,
+    "label": "Dashboard Kesehatan",
+    "description": "Deskripsi tentang dashboard kesehatan",
+    "path_user": "/user/dashboard-grafik/",
+    "role": [
+      "BAPPEDA",
+      "KELURAHAN",
+      "DINKES",
+      "ADMIN",
+      "SEKEL",
+      "KOTA"
+    ],
+    "show": true,
+    "grid": {
+      "row": [
+        {
+          "label": "Highlight Data",
+          "highlight": true,
+          "column": [
+            {
+              "lg": 12,
+              "md": 12,
+              "sm": 12
+            }
+          ]
+        },
+        {
+          "label": "Data Grafik",
+          "highlight": false,
+          "column": [
+            {
+              "lg": 12,
+              "md": 12,
+              "sm": 12
+            }
+          ]
+        }
+      ]
+    },
+    "variabel": [],
+    "icon": "icon_kesehatan",
+    "grafik": []
+  },
+  {
+    "id": 6,
+    "role": [
+      "BAPPEDA",
+      "KELURAHAN",
+      "DINKES",
+      "ADMIN",
+      "DPPAPP",
+      "SEKEL",
+      "PKB",
+      "KOTA"
+    ],
+    "label": "Dashboard Fertilitas/KB",
+    "description": "Bagian Fertilitas/KB",
+    "path_user": "/user/dashboard-grafik/",
+    "grid": {
+      "row": [
+        {
+          "label": "Highlight Data",
+          "highlight": true,
+          "column": [
+            {
+              "lg": 12,
+              "md": 12,
+              "sm": 12
+            }
+          ]
+        },
+        {
+          "label": "Data Grafik",
+          "highlight": false,
+          "column": [
+            {
+              "lg": 12,
+              "md": 12,
+              "sm": 12
+            }
+          ]
+        }
+      ]
+    },
+    "variabel": [],
+    "show": true,
+    "icon": "icon_keluarga_berencana",
+    "grafik": []
+  },
+  {
+    "id": 7,
+    "role": [
+      "BAPPEDA",
+      "KELURAHAN",
+      "ROPLH",
+      "ADMIN",
+      "DKPKP",
+      "DLH",
+      "SEKEL",
+      "KOTA"
+    ],
+    "label": "Dashboard Lingkungan",
+    "description": "Bagian Lingkungan",
+    "path_user": "/user/dashboard-grafik/",
+    "grid": {
+      "row": [
+        {
+          "label": "Highlight Data",
+          "highlight": true,
+          "column": [
+            {
+              "lg": 12,
+              "md": 12,
+              "sm": 12
+            }
+          ]
+        },
+        {
+          "label": "Data Grafik",
+          "highlight": false,
+          "column": [
+            {
+              "lg": 12,
+              "md": 12,
+              "sm": 12
+            }
+          ]
+        }
+      ]
+    },
+    "variabel": [],
+    "show": true,
+    "icon": "icon_perumahan",
+    "grafik": []
+  },
+  {
+    "id": 8,
+    "role": [
+      "BAPPEDA",
+      "KELURAHAN",
+      "GULKARMAT",
+      "ADMIN",
+      "SEKEL",
+      "KOTA"
+    ],
+    "label": "Dashboard Potensi Bencana",
+    "description": "Bagian Potensi Bencana",
+    "path_user": "/user/dashboard-grafik/",
+    "grid": {
+      "row": [
+        {
+          "label": "Highlight Data",
+          "highlight": true,
+          "column": [
+            {
+              "lg": 12,
+              "md": 12,
+              "sm": 12
+            }
+          ]
+        },
+        {
+          "label": "Data Grafik",
+          "highlight": false,
+          "column": [
+            {
+              "lg": 12,
+              "md": 12,
+              "sm": 12
+            }
+          ]
+        }
+      ]
+    },
+    "variabel": [],
+    "show": true,
+    "icon": "icon_rawan_kebakaran",
+    "grafik": []
+  },
+  {
+    "id": 9,
+    "role": [
+      "DINSOS",
+      "ADMIN",
+      "SEKEL",
+      "KOTA"
+    ],
+    "label": "Dashboard Sosial",
+    "description": "Bagian Sosial",
+    "path_user": "/user/dashboard-grafik/",
+    "grid": {
+      "row": [
+        {
+          "label": "Highlight Data",
+          "highlight": true,
+          "column": [
+            {
+              "lg": 12,
+              "md": 12,
+              "sm": 12
+            }
+          ]
+        },
+        {
+          "label": "Data Grafik",
+          "highlight": false,
+          "column": [
+            {
+              "lg": 12,
+              "md": 12,
+              "sm": 12
+            }
+          ]
+        }
+      ]
+    },
+    "variabel": [],
+    "show": true,
+    "icon": "icon_sosial",
+    "grafik": []
+  },
+  {
+    "id": 10,
+    "role": [
+      "BAPPEDA",
+      "KELURAHAN",
+      "DISKOMINFOTIK",
+      "ADMIN",
+      "SEKEL",
+      "KOTA"
+    ],
+    "label": "Dashboard Teknologi Informasi",
+    "description": "Bagian Teknologi Informasi",
+    "path_user": "/user/dashboard-grafik/",
+    "grid": {
+      "row": [
+        {
+          "label": "Highlight Data",
+          "highlight": true,
+          "column": [
+            {
+              "lg": 12,
+              "md": 12,
+              "sm": 12
+            }
+          ]
+        },
+        {
+          "label": "Data Grafik",
+          "highlight": false,
+          "column": [
+            {
+              "lg": 12,
+              "md": 12,
+              "sm": 12
+            }
+          ]
+        }
+      ]
+    },
+    "variabel": [],
+    "show": true,
+    "icon": "icon_pembangunan_keluarga",
+    "grafik": []
+  },
+  {
+    "id": 11,
+    "role": [
+      "BAPPEDA",
+      "KELURAHAN",
+      "DKTE",
+      "ADMIN",
+      "SEKEL",
+      "KOTA"
+    ],
+    "label": "Dashboard Ketenagakerjaan",
+    "description": "Bagian Ketenagakerjaan",
+    "path_user": "/user/dashboard-grafik/",
+    "grid": {
+      "row": [
+        {
+          "label": "Highlight Data",
+          "highlight": true,
+          "column": [
+            {
+              "lg": 12,
+              "md": 12,
+              "sm": 12
+            }
+          ]
+        },
+        {
+          "label": "Data Grafik",
+          "highlight": false,
+          "column": [
+            {
+              "lg": 12,
+              "md": 12,
+              "sm": 12
+            }
+          ]
+        }
+      ]
+    },
+    "variabel": [],
+    "show": true,
+    "icon": "icon_sosial",
+    "grafik": []
+  },
+  {
+    "id": 12,
+    "role": [
+      "BAPPEDA",
+      "KELURAHAN",
+      "DPPAPP",
+      "ADMIN",
+      "SEKEL",
+      "KOTA"
+    ],
+    "label": "Dashboard Stunting",
+    "description": "Bagian Stunting",
+    "path_user": "/user/dashboard-grafik/",
+    "grid": {
+      "row": [
+        {
+          "label": "Highlight Data",
+          "highlight": true,
+          "column": [
+            {
+              "lg": 12,
+              "md": 12,
+              "sm": 12
+            }
+          ]
+        },
+        {
+          "label": "Data Grafik",
+          "highlight": false,
+          "column": [
+            {
+              "lg": 12,
+              "md": 12,
+              "sm": 12
+            }
+          ]
+        }
+      ]
+    },
+    "variabel": [],
+    "show": true,
+    "icon": "icon_kependudukan",
+    "grafik": []
+  },
+  {
+    "id": 13,
+    "role": [
+      "BNBA",
+      "ADMIN"
+    ],
+    "label": "Dashboard Transportasi",
+    "description": "Bagian Transportasi",
+    "path_user": "/user/dashboard-grafik/",
+    "grid": {
+      "row": [
+        {
+          "label": "Highlight Data",
+          "highlight": true,
+          "column": [
+            {
+              "lg": 12,
+              "md": 12,
+              "sm": 12
+            }
+          ]
+        },
+        {
+          "label": "Data Grafik",
+          "highlight": false,
+          "column": [
+            {
+              "lg": 12,
+              "md": 12,
+              "sm": 12
+            }
+          ]
+        }
+      ]
+    },
+    "variabel": [],
+    "show": true,
+    "icon": "icon_transportasi",
+    "grafik": []
+  },
+  {
+    "id": 14,
+    "role": [
+      "BAPPEDA",
+      "KELURAHAN",
+      "ADMIN",
+      "KOTA"
+    ],
+    "label": "Dashboard Hasil Telisik",
+    "description": "Bagian Hasil Telisik",
+    "path_user": "/user/dashboard-grafik/",
+    "grid": {
+      "row": [
+        {
+          "label": "Highlight Data",
+          "highlight": true,
+          "column": [
+            {
+              "lg": 12,
+              "md": 12,
+              "sm": 12
+            }
+          ]
+        },
+        {
+          "label": "Data Grafik",
+          "highlight": false,
+          "column": [
+            {
+              "lg": 12,
+              "md": 12,
+              "sm": 12
+            }
+          ]
+        }
+      ]
+    },
+    "variabel": [],
+    "show": true,
+    "icon": "icon_kependudukan",
+    "grafik": []
+  },
+  {
+    "id": 15,
+    "role": [
+      "BAPPEDA",
+      "KELURAHAN",
+      "ADMIN",
+      "KOTA",
+      "PUSKESMAS",
+      "DINKES"
+    ],
+    "label": "Dashboard Balita Intervensi Stunting",
+    "description": "Bagian Hasil Intervensi Stunting",
+    "path_user": "/user/dashboard-grafik/",
+    "grid": {
+      "row": [
+        {
+          "label": "Highlight Data",
+          "highlight": true,
+          "column": [
+            {
+              "lg": 12,
+              "md": 12,
+              "sm": 12
+            }
+          ]
+        },
+        {
+          "label": "Data Grafik",
+          "highlight": false,
+          "column": [
+            {
+              "lg": 12,
+              "md": 12,
+              "sm": 12
+            }
+          ]
+        }
+      ]
+    },
+    "variabel": [],
+    "show": true,
+    "icon": "icon_kependudukan",
+    "grafik": []
+  },
+  {
+    "id": 16,
+    "role": [
+      "BAPPEDA",
+      "KELURAHAN",
+      "ADMIN",
+      "KOTA",
+      "PUSKESMAS",
+      "DINKES"
+    ],
+    "label": "Dashboard Imunisasi Polio",
+    "description": "Bagian Hasil Imunisasi Polio",
+    "path_user": "/user/dashboard-grafik/",
+    "grid": {
+      "row": [
+        {
+          "label": "Highlight Data",
+          "highlight": true,
+          "column": [
+            {
+              "lg": 12,
+              "md": 12,
+              "sm": 12
+            }
+          ]
+        },
+        {
+          "label": "Data Grafik",
+          "highlight": false,
+          "column": [
+            {
+              "lg": 12,
+              "md": 12,
+              "sm": 12
+            }
+          ]
+        }
+      ]
+    },
+    "variabel": [],
+    "show": true,
+    "icon": "icon_kependudukan",
+    "grafik": []
+  }
+]
